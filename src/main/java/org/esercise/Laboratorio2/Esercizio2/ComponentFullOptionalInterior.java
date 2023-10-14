@@ -9,6 +9,6 @@ public class ComponentFullOptionalInterior extends Car {
 
     @Override
     public String getDescription() {
-        return car.description + ", full optional interior";
+        return car.getDescription() + ", full optional interior";
     }
 }

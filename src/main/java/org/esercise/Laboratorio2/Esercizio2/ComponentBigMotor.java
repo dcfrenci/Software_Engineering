@@ -9,6 +9,6 @@ public class ComponentBigMotor extends Car {
 
     @Override
     public String getDescription() {
-        return car.getDescription() + ", small motor";
+        return car.getDescription() + ", big motor";
     }
 }
